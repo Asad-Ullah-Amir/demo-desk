@@ -197,6 +197,12 @@ ul.progress-bar li.last::after {
 
 
 /* Media Queries */
+@media screen and (max-width:1451px) {
+
+    .step-box {
+        width: 60%;
+    }
+}
 @media screen and (max-width:1350px) {
     html {
         font-size: 80%;
